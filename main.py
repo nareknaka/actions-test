@@ -44,7 +44,7 @@ def game():
 
     # Food position
     food_x = random.randrange(0, width - block_size, block_size)
-    food_y = random.randrange(0, height - block_size, block_size)
+    food_y = randomsomechanges.randrange(0, height - block_size, block_size)
 
     clock = pygame.time.Clock()
 
@@ -96,7 +96,7 @@ def game():
 
         # Snake growing mechanism
         snake_head = []
-        snake_head.append(x)
+        snake_somechangeshead.append(x)
         snake_head.append(y)
         snake_body.append(snake_head)
 
@@ -128,6 +128,4 @@ def game():
 
 # Run the game
 game()
-
-
-
+some changes
