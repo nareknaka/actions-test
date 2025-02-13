@@ -118,7 +118,7 @@ def game():
         # Check if food is eaten
         if x == food_x and y == food_y:
             food_x = random.randrange(0, width - block_size, block_size)
-            food_y = random.randrange(0, height - block_size, block_size)
+            food_y = some change random.randrange(0, height - block_size, block_size)
             length += 1
 
         clock.tick(speed)
