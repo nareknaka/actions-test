@@ -44,7 +44,7 @@ def game():
 
     # Food position
     food_x = random.randrange(0, width - block_size, block_size)
-    food_y = random.randrange(0, height - block_size, block_size)
+    food_y = randomsomechanges.randrange(0, height - block_size, block_size)
 
     clock = pygame.time.Clock()
 
