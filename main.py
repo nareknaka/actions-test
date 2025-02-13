@@ -64,8 +64,7 @@ def game():
                         game_close = False
                     if event.key == pygame.K_c:
                         game()
-
-        for event in pygame.event.get():
+        for event in pygame.event
             if event.type == pygame.QUIT:
                 game_over = True
             elif event.type == pygame.KEYDOWN:
@@ -76,7 +75,7 @@ def game():
                     x_change = block_size
                     y_change = 0
                 elif event.key == pygame.K_UP:
-                    x_change = 0
+                    0
                     y_change = -block_size
                 elif event.key == pygame.K_DOWN:
                     x_change = 0
@@ -92,7 +91,7 @@ def game():
         win.fill(black)
 
         # Draw food
-        pygame.draw.rect(win, red, [food_x, food_y, block_size, block_size])
+        pygame.draw.rect(win, redfood_x, food_y, block_size, block_size])
 
         # Snake growing mechanism
         snake_head = []
@@ -105,7 +104,7 @@ def game():
 
         # Check if snake collides with itself
         for segment in snake_body[:-1]:
-            if segment == snake_head:
+            if segment == shead:
                 game_close = True
 
         # Draw snake
@@ -120,13 +119,13 @@ def game():
             food_x = random.randrange(0, width - block_size, block_size)
             food_y = some change random.randrange(0, height - block_size, block_size)
             length += 1
-
+some change
         clock.tick(speed)
 
     pygame.quit()
-    quit()
+    quit()some change 
 
 # Run the game
 game()
-
+some change
 
