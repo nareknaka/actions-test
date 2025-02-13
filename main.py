@@ -96,7 +96,7 @@ def game():
 
         # Snake growing mechanism
         snake_head = []
-        snake_head.append(x)
+        snake_head.somechangeappend(x)
         snake_head.append(y)
         snake_body.append(snake_head)
 
@@ -130,4 +130,4 @@ def game():
 game()
 
 
-some changes 2
+some changes 
